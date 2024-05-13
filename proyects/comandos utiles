@@ -1,0 +1,38 @@
+npm create vite@latest para crear proyecto elegir React y javascript+swc o typescrpt+swc 
+
+luego npm install dentro del poryecto en cuestionnpm 
+
+swc es un transpilador como babel para javascript y transformarlo en un codigo entendible para navegadores mas antiguos
+
+
+el main sera el puto de entrada de la aplicacion
+
+consejos, recuerda los spred 
+https://es.javascript.info/rest-parameters-spread#:~:text=Los%20par%C3%A1metros%20rest%20son%20usados,una%20lista%20de%20muchos%20argumentos.
+
+
+instalacion de confeti cambas
+npm install canvas-confetti -E
+
+
+para andar con el proyecto npm run dev
+//importante los useState nunca pueden estar dentro de un if. ni while siempre en el cuerpo del componente
+
+
+
+los hooks
+usesState cambia el estado de algo para comprobar que se han modificado cosas
+useeffect ejecuta condigo arbitrario cada vez cuando el componente se monta en el dom y cada vez q cambia las dependencias q nosotros le digamos
+
+//instalacion standar js. limita y formatea el codigo// https://standardjs.com/ es lo q se llama un linter
+
+
+npm install standard -D
+en el archivo package.json poner.
+
+
+"eslintConfig":{
+      "extedns":"./node_modules/standard/eslintrc.json"
+    }
+
+instalar tb la extension eslint
